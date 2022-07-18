@@ -1,4 +1,3 @@
-My working fork of slock-flexipatch, comes with blur and a 2nd password (a pin password) for faster unlocking, because I don't want to type my sudo password to unlock all the time.
 
 slock - simple screen locker
 ============================

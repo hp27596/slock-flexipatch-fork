@@ -1,3 +1,7 @@
+My working fork of slock-flexipatch, comes with blur and a 2nd password (a pin password) for faster unlocking, because I don't want to type my sudo password to unlock all the time.
+
+---
+
 Similar to [dwm-flexipatch](https://github.com/bakkeby/dwm-flexipatch) this slock 1.4 (701aa9,
 2017-03-25) project has a different take on patching. It uses preprocessor directives to decide
 whether or not to include a patch during build time. Essentially this means that this build, for
