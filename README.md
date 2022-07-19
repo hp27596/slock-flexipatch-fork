@@ -1,5 +1,11 @@
 My working fork of slock-flexipatch, comes with blur and a 2nd password (a pin password) for faster unlocking, because I don't want to type my sudo password to unlock all the time.
 
+To install, run 
+
+```
+sudo make clean install
+```
+
 ---
 
 Similar to [dwm-flexipatch](https://github.com/bakkeby/dwm-flexipatch) this slock 1.4 (701aa9,
