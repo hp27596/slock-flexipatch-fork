@@ -94,7 +94,7 @@ static const int failonclear = 1;
 
 #if AUTO_TIMEOUT_PATCH
 /* length of time (seconds) until */
-static const int timeoffset = 60;
+static const int timeoffset = 300;
 
 /* should [command] be run only once? */
 static const int runonce = 0;
@@ -115,7 +115,7 @@ static const char *failcommand = "shutdown";
 #if SECRET_PASSWORD_PATCH
 static const secretpass scom[] = {
 	/* Password             command */
-	{ "0711",           "killall slock"},
+	{ "0711",           "killall slock && killall caffeinate; xset dpms 600 600 600"},
 };
 #endif // SECRET_PASSWORD_PATCH
 
